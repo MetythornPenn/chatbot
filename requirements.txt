@@ -1,0 +1,7 @@
+torch
+nltk
+fastapi
+gradio
+loguru
+pydantic
+numpy

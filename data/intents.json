@@ -1,0 +1,184 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "credit",
+      "patterns": [
+        "how can I improve my credit score?",
+        "how to improve credit score?"
+      ],
+      "responses": [
+        "To improve your credit score, pay your bills on time, reduce credit card balances, and avoid opening new credit accounts unnecessarily. Regularly check your credit report for errors as well."
+      ]
+    },
+    {
+      "tag": "budget",
+      "patterns": [
+        "how do I create a budget?"
+      ],
+      "responses": [
+        "Creating a budget involves listing your income and expenses. Allocate a portion of your income to essential expenses like housing and food, save a portion, and limit non-essential spending. There are apps available to help you track your spending."
+      ]
+    },
+    {
+      "tag": "low-risk",
+      "patterns": [
+        "what are some low-risk investment options?"
+      ],
+      "responses": [
+        "Low-risk investments include government bonds, certificates of deposit (CDs), and blue-chip stocks. These options generally provide stable returns with lower volatility."
+      ]
+    },
+    {
+      "tag": "mutual",
+      "patterns": [
+        "should I invest in stocks or mutual funds?"
+      ],
+      "responses": [
+        "Stocks offer higher potential returns but come with higher risk. Mutual funds offer diversification by investing in a mix of stocks, bonds, or other assets. Your choice should align with your risk tolerance and investment goals."
+      ]
+    },
+    {
+      "tag": "checking",
+      "patterns": [
+        "what's the difference between a savings account and a checking account?"
+      ],
+      "responses": [
+        "A savings account is designed for saving money, often offering interest on deposits. A checking account is for daily transactions, allowing you to write checks, use a debit card, and make electronic transfers."
+      ]
+    },
+    {
+      "tag": "overdraft",
+      "patterns": [
+        "how can I avoid overdraft fees?"
+      ],
+      "responses": [
+        "To avoid overdraft fees, monitor your account balance regularly, set up account alerts, and consider opting out of overdraft protection. Keeping a buffer in your checking account can also prevent overdrafts."
+      ]
+    },
+    {
+      "tag": "retirement",
+      "patterns": [
+        "when should I start saving for retirement?",
+        "How much do I need to save for retirement?"
+      ],
+      "responses": [
+        "It's best to start saving for retirement as early as possible. The power of compounding means that your money can grow significantly over time. The earlier you start, the more you can accumulate.",
+        "The amount varies based on your lifestyle, expected retirement age, and other factors. A general rule is to aim for 15% of your income. Use retirement calculators to estimate your needs and consider consulting a financial advisor for a personalized plan."
+      ]
+    },
+    {
+      "tag": "401(k)",
+      "patterns": [
+        "what is a 401(k) and how does it work?",
+        "what's the difference between a 401(k) and an IRA?"
+      ],
+      "responses": [
+        "A 401(k) is an employer-sponsored retirement savings plan. You contribute a portion of your salary, which is often matched by your employer. The money grows tax-deferred until you withdraw it in retirement.",
+        "A 401(k) is an employer-sponsored retirement plan, often with employer matching. An IRA (Individual Retirement Account) is an account you can open independently. Both offer tax advantages, but contribution limits and investment choices differ."
+      ]
+    },
+    {
+      "tag": "compound",
+      "patterns": [
+        "what is compound interest?"
+      ],
+      "responses": [
+        "Compound interest is the interest calculated on the initial principal, which also includes all the accumulated interest from previous periods on a deposit or loan. It's one of the most powerful concepts in finance, allowing your money to grow exponentially over time."
+      ]
+    },
+    {
+      "tag": "tight",
+      "patterns": [
+        "how can I save money on a tight budget?"
+      ],
+      "responses": [
+        "Saving on a tight budget requires careful planning. Cut unnecessary expenses, look for discounts and coupons, cook at home, and consider refinancing high-interest debt. Every small saving adds up."
+      ]
+    },
+    {
+      "tag": "save",
+      "patterns": [
+        "what are some effective ways to save money?"
+      ],
+      "responses": [
+        "Consider setting up automatic transfers to a savings account. Cut unnecessary expenses, negotiate bills, and buy in bulk. Creating an emergency fund and saving for specific goals can also help you manage your finances better."
+      ]
+    },
+    {
+      "tag": "debt",
+      "patterns": [
+        "how can I pay off my credit card debt faster?"
+      ],
+      "responses": [
+        "To pay off credit card debt faster, pay more than the minimum amount due each month. Consider a balance transfer to a card with a lower interest rate. Create a repayment plan and avoid adding new charges to the card."
+      ]
+    },
+    {
+      "tag": "consolidate",
+      "patterns": [
+        "is it a good idea to consolidate my debts?"
+      ],
+      "responses": [
+        "Debt consolidation can simplify payments, but it's crucial to weigh the pros and cons. Consolidating high-interest debts into a lower-interest loan can save money. However, it's essential to address the root cause of debt and avoid taking on new debt."
+      ]
+    },
+    {
+      "tag": "small",
+      "patterns": [
+        "what's the best way to start investing with a small amount of money?"
+      ],
+      "responses": [
+        "Consider micro-investing apps or robo-advisors, which allow you to start investing with small amounts. Focus on low-cost index funds or ETFs. Regularly contribute even small amounts to benefit from compounding over time."
+      ]
+    },
+    {
+      "tag": "portfolio",
+      "patterns": [
+        "how can I diversify my investment portfolio?"
+      ],
+      "responses": [
+        "Diversifying means spreading investments across different asset classes (stocks, bonds, real estate, etc.) to reduce risk. Consider diversifying within asset classes too. Mutual funds and ETFs offer instant diversification."
+      ]
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "what's the best way to plan for my child's education?"
+      ],
+      "responses": [
+        "Consider a 529 savings plan, which offers tax advantages for education savings. Start early to benefit from compounding. Research scholarships, grants, and education tax credits as well to ease the financial burden."
+      ]
+    }
+  ]
+}
