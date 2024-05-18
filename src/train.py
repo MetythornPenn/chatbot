@@ -9,7 +9,7 @@ from torch.utils.data import Dataset, DataLoader
 from utils import bag_of_words, tokenize, stem
 from network import NeuralNet
 
-with open('../data/intents.json', 'r') as f:
+with open('../data/intents.json', 'r', encoding='utf-8') as f:
     intents = json.load(f)
 
 all_words = []
