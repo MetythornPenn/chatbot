@@ -1,6 +1,7 @@
 import numpy as np
 import random
 import json
+import os
 
 import torch
 import torch.nn as nn
@@ -127,5 +128,6 @@ data = {
 
 model_path = "../model/chatbot_weight.pth"
 torch.save(data, model_path)
+print(f"Size of model : {os.path.getsize(model_path) / 1000}Mb")
 
 print(f'Training chatbot model succeffully and save weight to {model_path}')

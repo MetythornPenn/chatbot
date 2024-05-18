@@ -3,6 +3,6 @@ version: '3.8'
 services:
   chatbot:
     build: .
-    command: "cd src && python app.py"
+    # command: "python src.app.py"
     ports:
       - "8080:8080"

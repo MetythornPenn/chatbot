@@ -3,7 +3,7 @@
 AI chatbot using deep learning with pytorch
 
 ## Description 🌱
-Acleda chatbot ........
+Chatbot ........
 
 ## Technology Stack 🪣
 - **Programming Languages** - Python
